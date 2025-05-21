@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+  <diagram name="Page-1" id="soHBd2a_jMFif4S6CW-Y">
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-sM4Souwvshf5DNwgaqd-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Sum of first and last digits&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 1: Start&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 2: Initialize variables&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 3: Initialize sum by 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 4: lastDigit = n % 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 5: Repeat step 6 to 9 if the condition is true (n&amp;gt;0)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 6: FirstDigit = n % 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 7: sum = sum + FirstDigit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 8: n = n / 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 9: Go to step 5&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 10: Print FirstDigit + lastDigit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 11: End&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="500" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-2" target="-sM4Souwvshf5DNwgaqd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="375" y="330" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-3" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-4" target="-sM4Souwvshf5DNwgaqd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-4" value="int i, firstDigit, lastDigit,&lt;div&gt;sum = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-6" target="-sM4Souwvshf5DNwgaqd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-6" value="Enter n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="365" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-8" target="-sM4Souwvshf5DNwgaqd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-8" value="lastDigit = n % 10" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="650" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-10" target="-sM4Souwvshf5DNwgaqd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-21" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="-sM4Souwvshf5DNwgaqd-13">
+          <mxGeometry x="-0.38" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-10" target="-sM4Souwvshf5DNwgaqd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-22" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="-sM4Souwvshf5DNwgaqd-15">
+          <mxGeometry x="-0.4374" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-10" value="n &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="760" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-12" target="-sM4Souwvshf5DNwgaqd-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="920" />
+              <mxPoint x="190" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-12" value="firstDigit = n % 10&lt;div&gt;sum = sum + firstDigit&lt;/div&gt;&lt;div&gt;n = n / 10&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="880" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-14" target="-sM4Souwvshf5DNwgaqd-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-14" value="Print sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="-sM4Souwvshf5DNwgaqd-16" target="-sM4Souwvshf5DNwgaqd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sM4Souwvshf5DNwgaqd-16" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

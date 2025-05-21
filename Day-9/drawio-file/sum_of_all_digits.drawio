@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+  <diagram name="Page-1" id="5HrmGAMvUnCK13_OgrrA">
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Sum of all digits&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 1: Start&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 2: Initialize variables&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 3: Initialize sum by 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 4: Repeat the step 5 to 8 if the condition is true (n&amp;gt;0)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 5: lastDigit = n % 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 6: sum = sum + lastDigit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 7: n = n / 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 8: Go to step 4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 9: Print sum&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Step 10: End&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="530" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-2" target="EtnHV5TQKn7X6b99CMxF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="375" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1030" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-4" target="EtnHV5TQKn7X6b99CMxF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-4" value="int n, lastDigit,&amp;nbsp;&lt;div&gt;sum = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="365" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-6" target="EtnHV5TQKn7X6b99CMxF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-6" value="Enter n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="365" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-8" target="EtnHV5TQKn7X6b99CMxF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-19" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="EtnHV5TQKn7X6b99CMxF-11">
+          <mxGeometry x="-0.168" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-8" target="EtnHV5TQKn7X6b99CMxF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-20" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="EtnHV5TQKn7X6b99CMxF-13">
+          <mxGeometry x="-0.4698" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-8" value="n &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="610" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="EtnHV5TQKn7X6b99CMxF-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="790" as="sourcePoint" />
+            <mxPoint x="265" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="791" />
+              <mxPoint x="170" y="791" />
+              <mxPoint x="170" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-10" value="lastDigit = n % 10&lt;div&gt;sum = sum + lastDigit&lt;/div&gt;&lt;div&gt;n = n / 10&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-12" target="EtnHV5TQKn7X6b99CMxF-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-12" value="Print sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="EtnHV5TQKn7X6b99CMxF-14" target="EtnHV5TQKn7X6b99CMxF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtnHV5TQKn7X6b99CMxF-14" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="385" y="900" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

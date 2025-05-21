@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+  <diagram name="Page-1" id="wgHEH6J2hxXT9VPqAfSQ">
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-1" target="Yk_ZOQGR_Aq14ovpOTp3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="375" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-2" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-3" target="Yk_ZOQGR_Aq14ovpOTp3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-3" value="string employeename&lt;div&gt;double basicsalary, gross, netsalary&lt;/div&gt;&lt;div&gt;int hra,da, ma, ta, pt, pf, tds, deduction&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-5" target="Yk_ZOQGR_Aq14ovpOTp3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-5" value="Enter employeename, basicsalary" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-7" target="Yk_ZOQGR_Aq14ovpOTp3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-7" value="hra = basicsalary * 0.1&lt;div&gt;da = basicsalary * 0.08&lt;/div&gt;&lt;div&gt;ma = basicsalary * 0.05&lt;/div&gt;&lt;div&gt;ta = basicsalary * 0.08&lt;/div&gt;&lt;div&gt;pf = basicsalary * 0.12&lt;/div&gt;&lt;div&gt;tds = basicsalary * 0.05&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-13" target="Yk_ZOQGR_Aq14ovpOTp3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-31" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="Yk_ZOQGR_Aq14ovpOTp3-16">
+          <mxGeometry x="-0.5896" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-13" target="Yk_ZOQGR_Aq14ovpOTp3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-32" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="Yk_ZOQGR_Aq14ovpOTp3-18">
+          <mxGeometry x="-0.5148" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-13" value="basicsalary &amp;lt; 12000" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="590" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.583;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="830" as="sourcePoint" />
+            <mxPoint x="520" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-15" value="pt = 0" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="550" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-17" target="Yk_ZOQGR_Aq14ovpOTp3-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-17" value="pt = 200" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-19" target="Yk_ZOQGR_Aq14ovpOTp3-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="1050" />
+              <mxPoint x="426" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-19" value="gross = basicsalary + hra + da + ma + ta&lt;div&gt;deduction = pt + pf + tds&lt;/div&gt;&lt;div&gt;netsalary = gross - deduction&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="333" y="880" width="185" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-24" target="Yk_ZOQGR_Aq14ovpOTp3-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1180" />
+              <mxPoint x="420" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-24" value="Print emplyeename, basicsalary, hra, da, ma, ta, pt, pf, tds,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gross, deduction, netsalary&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1070" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Yk_ZOQGR_Aq14ovpOTp3-26" target="Yk_ZOQGR_Aq14ovpOTp3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk_ZOQGR_Aq14ovpOTp3-26" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1200" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
